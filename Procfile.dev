@@ -1,2 +1,2 @@
-web: bundle exec rails s
+web: bundle exec rails s -b 'ssl://localhost:3000?key=/home/kav/.ssh/localhost.key&cert=/home/kav/.ssh/localhost.crt&verify_mode=none'
 webpacker: ./bin/webpack-dev-server
